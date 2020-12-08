@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+    <link rel="stylesheet" href="main.css">
+   
+</head>
+<body>
+    <h1>KanBan<span style="color:greenyellow">Board</span></h1>
+    <h1></h1>
+    <div class="app">
+        <div class="lists">
+            <div class="list" id="ckbCheckAll">
+                <h2>ToDo</h2>
+                
+                <div class="link-div">
+                    <input type="text" id="new_text" value="" class="btn" placeholder="Enter Here"/>
+                    
+                    <input type="button" name="btnAddNew" value="Add" class="add-button" />
+                    
+                </div>
+                    <ul class="sortable connectedSortable" id="pk">
+                        <button class="delete">Delete</button><button contenteditable>Edit</button>
+                        <li><input type="checkbox" class="checkBoxClass" id="Checkbox1" /><div class="list-item" contenteditable="true">Use kanban</div></li>
+                        <li><input type="checkbox" class="checkBoxClass" id="Checkbox1" /><div class="list-item"contenteditable="true">Learn kanban tool</div></li>
+                        
+                    </ul>
+                   
+                    </div>
+            <div class="list" id="ckbCheckAll">
+                <h2>In Progress</h2> 
+            <ul class="sortable connectedSortable" >
+                <button class="delete">Delete</button> 
+                <li> <input type="checkbox" class="checkBoxClass" id="Checkbox1" /><div   class="list-item" contenteditable="true">Learn kanban1</div></li>
+                <li> <input type="checkbox" class="checkBoxClass" id="Checkbox1" /><div   class="list-item" contenteditable="true">Learn kanban2</div></li>
+                <li> <input type="checkbox" class="checkBoxClass" id="Checkbox1" /><div   class="list-item" contenteditable="true">Learn kanban3</div></li>
+                <li><div class="k"></div></li>
+              
+                
+            </ul>
+            
+            </div>
+            <div class="list" id="ckbCheckAll">
+                
+                <h2>Testing</h2>
+                
+                <ul class="sortable connectedSortable" >
+                    <button class="delete">Delete</button> 
+                    <li><div class="k"></div></li>  
+                   
+                </ul>
+            </div>
+            <div class="list" id="ckbCheckAll">
+                <h2>Done</h2>
+           <ul class="sortable connectedSortable" >
+            <button class="delete">Delete</button> 
+                   <li><div class="k"></div></li> 
+                    </ul>
+
+            </div>
+        </div>
+    </div>
+    <script src="javas.js"></script>
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
